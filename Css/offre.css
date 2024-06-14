@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: "Nanum Myeongjo";
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+body{
+    width: 100%;
+    height: 80px;
+    background:url(../Images/imajoffre.jpg);
+}
+body nav {
+    position: absolute;
+    background: #333;
+    width: 100%;
+    font-weight: 1.7em;
+    /* overflow: auto; */
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.header nav h1{
+    float: left;
+    padding: 20px;
+    margin-bottom: 0px;
+    color: white;
+    font-family: "indie flower";
+}
+.header nav ul{
+    float: right;
+    list-style: none;
+}
+.header nav ul li{
+    float: left;
+    display: inline;
+
+}
+.header nav ul li a{
+    padding: 20px;
+    display: block;
+}
+.header nav ul li a:hover{
+    padding: 20px;
+    background:#716f6f;
+}
+.fa-crown{
+    color: orange;
+}
+h2{
+    font-family: "Nanum Myeongjo";
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 75px;
+    
+}
+#service-content {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    
+}
+.service{
+    background-color: rgb(250, 246, 246);
+    width: 100%;
+    height: 50vh;
+    padding-top: 0;
+    justify-content: center;
+    
+}
+.service img{
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    justify-items: center;
+}
+.service h3{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-family: "Nanum Myeongjo", serif;
+}
+.service p{
+    padding-top: 5px;
+    margin: 5px 5px 0px 5px;
+    display: block;
+    font-family: "Nanum Myeongjo", serif;
+    text-align: center;
+}
+.pye{
+    text-align: center;
+    background: #333;
+    padding: 20px 20px;
+    margin-top: 40%;
+}
+@media only screen and (max-width: 767px) {
+    /* Ajoutez des styles pour les petits écrans ici */
+    .header nav ul {
+        display: flex; /* Cache la navigation principale sur les petits écrans */
+        background-color: rgba(255, 217, 0, 0.11);
+        margin-top: 13vw;
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+        justify-content: space-evenly;
+        
+        
+    }
+    .header nav{
+        padding: 0;
+    }
+    .header nav h1{
+       width: 100%;
+    }
+    .header nav {
+        padding: 10px;
+    }
+
+    .header nav h1 {
+        margin: 0;
+    }
+
+    .header nav ul li {
+        display: block;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+    #service-content{
+        flex-direction: column;
+        width: 100%;
+        height: fit-content;
+    }
+    .service{
+        width: 100%;
+        padding-bottom: 1vw;
+    }
+    .header nav ul{
+        position: relative;
+        height: fit-content;
+        margin-bottom: 10%;
+    }
+}

@@ -1,0 +1,94 @@
+/* Pour les écrans de taille moyenne */
+@media only screen and (max-width: px) {
+    body nav {
+        /* position: relative; */
+        font-size: 1.2em; /* Ajustez la taille de la police de la barre de navigation */
+    }
+    
+    .header nav h1 {
+        padding: 10px; /* Réduire l'espacement du titre dans la barre de navigation */
+    }
+    
+    .header nav ul {
+        float: none;
+        text-align: center; /* Centrer les éléments de la barre de navigation */
+        margin-top: 10px; /* Ajouter un peu d'espace au-dessus des éléments de la barre de navigation */
+    }
+    
+    .header nav ul li {
+        display: block;
+        margin-bottom: 10px; /* Espacement entre les éléments de la barre de navigation */
+    }
+    
+    .header nav ul li a {
+        padding: 10px; /* Réduire l'espacement des liens dans la barre de navigation */
+    }
+    
+    .titre {
+        padding-left: 0; /* Réinitialiser le padding pour le titre */
+        text-align: center; /* Centrer le titre */
+    }
+    
+    .commentaires {
+        width: 90vw; /* Ajuster la largeur des commentaires pour les écrans plus petits */
+    }
+    
+    .text-com {
+        width: 100%; /* Ajuster la largeur du texte des commentaires */
+        margin: 2rem auto; /* Réduire la marge pour le texte des commentaires */
+    }
+}
+
+/* Pour les écrans de petite taille */
+@media only screen and (max-width: 480px) {
+    .content-vp h2 {
+        font-size: 40px; /* Réduire la taille du titre */
+    }
+    
+    .content-vp p {
+        font-size: 13px; /* Réduire la taille du texte */
+    }
+    
+    .text-com {
+        margin: 1rem auto; /* Réduire davantage la marge pour le texte des commentaires */
+    }
+    
+    .jesyon {
+        width: 100%; /* Ajuster la largeur des éléments jesyon pour les écrans plus petits */
+    }
+    /*notre equipe*/
+    #container-equipe {
+        grid-template-columns: repeat(6, 3fr); /* Une seule colonne pour les membres de l'équipe sur les écrans de taille moyenne */
+        padding: 0 10px; /* Réduire le padding autour des membres de l'équipe */
+    }
+    
+    .jesyon {
+        width: 100%; /* Ajuster la largeur des éléments jesyon pour les écrans de taille moyenne */
+    }
+}
+
+/* Pour les écrans de petite taille */
+@media only screen and (max-width: 780px) {
+    .header nav ul {
+        text-align: center; /* Centrer les éléments de navigation */
+    }
+    
+    .header nav ul li {
+        display: block;
+        margin-bottom: 10px; /* Espacement entre les éléments de navigation */
+    }
+    
+    .header nav ul li a {
+        padding: 100px; /* Réduire l'espacement des liens */
+    }
+    
+    .titre {
+        text-align: center; /* Centrer le titre */
+    }
+    
+    #container-equipe {
+        grid-template-columns: repeat(2, 1fr); /* Une seule colonne pour les membres de l'équipe sur les écrans de petite taille */
+        padding: 0 70px; /* Réduire le padding autour des membres de l'équipe */
+    }
+}
+

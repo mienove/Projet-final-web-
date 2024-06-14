@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+      
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+h1{
+    font-family: "Nanum Myeongjo";
+    margin-bottom: 10px;
+    text-align: center;
+}
+body{
+    width: 100%;
+    height: 90px;
+    background: url(../Images/1000_F_639093999_xZIPMi8h2O6bk7jz9S6r1Z3NG2PxKUaB.jpg);
+     
+}
+
+body nav {
+    position: absolute;
+    background: #333;
+    width: 100%;
+    font-weight: 1.7em;
+    /* overflow: auto; */
+}
+.header nav h1{
+    float: left;
+    padding: 20px;
+    margin-bottom: 0px;
+    color: white;
+    font-family: "indie flower";
+}
+.header nav ul{
+    float: right;
+    list-style: none;
+}
+.header nav ul li{
+    float: left;
+    display: inline;
+}
+.header nav ul li a{
+    padding: 20px;
+    display: block;
+}
+.header nav ul li a:hover{
+    padding: 20px;
+    background:#7C6666;
+}
+.fa-crown{
+    color: orange;
+}
+.container{
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    margin:  20px auto; 
+    justify-content: center;
+}
+h2{
+    width: 100%;
+    color: #0c0c0c;
+    padding: 70px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 2px;
+}
+input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 2px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+label{
+    margin-top: -20px;
+    margin-right: 0px;
+    width: 100%;
+}
+textarea{
+    height: 200px;
+    width: 26vw;
+    margin-top: 2px;
+}
+#soumet{
+    background-color: rgb(91, 91, 182);
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+#soumet:hover{
+    background-color: rgb(233, 154, 233);
+}
+.pied-de-page2{
+    text-align: center;
+    background: #333;
+    padding: 20px 20px;
+    margin-top: 15%;
+}
+@media only screen and (max-width: 767px) {
+    /* Ajoutez des styles pour les petits écrans ici */
+    .header nav ul {
+        display: flex; /* Cache la navigation principale sur les petits écrans */
+        background-color: rgba(255, 217, 0, 0.11);
+        margin-top: 13vw;
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+        justify-content: space-evenly;
+        
+        
+    }
+    .header nav{
+        padding: 0;
+    }
+    .header nav h1{
+       width: 100%;
+    }
+    .header nav {
+        padding: 10px;
+    }
+
+    .header nav h1 {
+        margin: 0;
+    }
+
+    .header nav ul li {
+        display: block;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+}
+   
